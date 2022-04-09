@@ -1,0 +1,10 @@
+{
+  "posts": [
+    {
+      "id" : 1,
+      "fname" : "aynaz",
+      "email" : "aynaz@gmail.com",
+      "password" : "1111"
+    }
+  ]
+}

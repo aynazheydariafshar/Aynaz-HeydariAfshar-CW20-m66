@@ -1,11 +1,10 @@
 import React from 'react';
 import { Formik } from 'formik';
 
-const MyForm = () => (
+const MyForm = (props) => (
   <div>
-    <h1>Anywhere in your app!</h1>
     <Formik
-      initialValues={{ email: '', password: '' , fname : '' }}
+      initialValues={props.initValues }
       validate={values => {
         const errors = {};
         if (!values.email) {
